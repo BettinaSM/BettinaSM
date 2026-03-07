@@ -111,7 +111,7 @@ These projects complement my infrastructure background while building practical 
 
 You can explore my portfolio here:
 
-➡️ https://bettinasm.github.io
+➡️ [https://bettinasm.github.io](https://bettinasm.github.io/BettinaSM/)
 
 ---
 
