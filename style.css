@@ -1,0 +1,23 @@
+body{
+font-family: Arial;
+max-width:900px;
+margin:auto;
+background:#0d1117;
+color:#e6edf3;
+}
+
+h1{
+color:#58a6ff;
+}
+
+a{
+color:#58a6ff;
+text-decoration:none;
+}
+
+div{
+padding:10px;
+margin-bottom:10px;
+background:#161b22;
+border-radius:6px;
+}
