@@ -16,7 +16,7 @@ body {
   border-radius: 50%;
 }
 
-#repos {
+#repos, #featured {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
@@ -43,6 +43,14 @@ body {
   color: #0366d6;
 }
 
+#search {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
 /* 🌙 Dark mode */
 body.dark {
   background-color: #0d1117;
@@ -57,7 +65,6 @@ body.dark a {
   color: #58a6ff;
 }
 
-/* botão */
 #toggle-theme {
   position: fixed;
   top: 20px;
