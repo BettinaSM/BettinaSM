@@ -42,3 +42,28 @@ body {
   text-decoration: none;
   color: #0366d6;
 }
+
+/* 🌙 Dark mode */
+body.dark {
+  background-color: #0d1117;
+  color: #c9d1d9;
+}
+
+body.dark .repo-card {
+  background: #161b22;
+}
+
+body.dark a {
+  color: #58a6ff;
+}
+
+/* botão */
+#toggle-theme {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
