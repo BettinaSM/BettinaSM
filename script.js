@@ -1,3 +1,4 @@
+console.log("VERSAO NOVA DO SCRIPT");
 const username = "BettinaSM";
 const repoContainer = document.getElementById("repos");
 
