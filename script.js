@@ -38,4 +38,10 @@ fetch(`https://api.github.com/users/${username}/repos?per_page=100`)
       repoContainer.appendChild(repoElement);
     });
 
+ // 🌙 Toggle Dark Mode
+const toggleBtn = document.getElementById("toggle-theme");
+
+toggleBtn.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+});
   });
